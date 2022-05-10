@@ -12,8 +12,8 @@ def gausse_jordan(matrix):
         b[k] = b[k] / a_kk
         for j in range(k, len(a[k])):
             a[k][j] = a[k][j] / a_kk  # transformacja wiersza, gdzie na przekątnej ma być 1
-        for i in range(n):  # k+1 bo i != k
-            if a[i][k] != 0 and i != k:  # jeżeli 0 to skipuje wiersz
+        for i in range(n):
+            if a[i][k] != 0 and i != k:  # jeżeli 0 to skipuje wiersz, i != k
                 a_i_k = a[i][k]
                 b[i] = b[i] - a_i_k * b[k]
                 for j in range(k, len(a[k])):
