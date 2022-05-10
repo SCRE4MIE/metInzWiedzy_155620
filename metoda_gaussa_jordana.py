@@ -5,7 +5,6 @@ def gausse_jordan(matrix):
     a = np.delete(matrix, matrix.shape[1]-1, 1)
     b = np.array(matrix[:, matrix.shape[1]-1], float)
     b = b.reshape(len(b), 1)
-    print(a.shape)
     n = len(b)
     for k in range(n):
         a_kk = a[k][k]
