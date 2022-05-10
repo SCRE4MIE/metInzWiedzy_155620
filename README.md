@@ -1,4 +1,4 @@
 # metInzWiedzy_155620
-# Mateusz Baran. 
+# Mateusz Baran  
 ## numer indeksu: 155620
 ## ISI rok 3
